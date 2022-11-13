@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The One Solution</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="homesc">
+        <video autoplay loop muted plays-inline class="video">
+            <source src="video/Nebula - 25047.m4v" type="video/mp4">
+        </video>
+        <nav>
+            <a href=""><img class="navlogo" src="images/The-One-Solution-Logo-white-01.svg" alt=""></a>
+            <div class="navLinks" id="navLinks">
+                <img src="icons/close-menu-icon.svg" alt="" class="close" onclick="hideMenu()">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Work</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul> 
+            </div>
+            <img src="icons/open-menu-iocn.svg" alt="" class="open" onclick="openMenu()">
+        </nav>
+        <div class="headtext">
+            <h1 class="constant">Welcome To</h1> 
+            <h1 class="dynamic" data-text="TheOneSolution">TheOneSolution</h1>
+            <div class="btncontainer">
+                <div class="butn1"><a href="">Explore</a></div>
+                <div class="butn1"><a href="">Call Now</a></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function openMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-220px";
+        }
+    </script>
+</body>
